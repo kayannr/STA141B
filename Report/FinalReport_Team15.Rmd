@@ -1,0 +1,52 @@
+---
+title: "Popular Music Analysis"
+subtitle: 'Kay Royo, Ibrahim Rizk, Aurian Saidi'
+output: rmdformats::robobook
+---
+
+```{css, echo=FALSE}
+h1, h2, h3 {
+  text-align: center;
+}
+```
+
+# Introduction 
+
+# I. Data Collection 
+
+```{r, echo=FALSE}
+htmltools::includeHTML("../Data/Data_Collection.html")
+```
+
+# II. Data Preprocessing
+
+```{r, echo=FALSE}
+htmltools::includeHTML("../Data/Data_Processing.html")
+```
+
+# III. Exploratory Analysis 
+
+# 1V. Clustering 
+
+# V. Sentiment Analysis 
+
+
+```{r, echo=FALSE}
+htmltools::includeHTML("../Sentiment_Analysis/Sentiment_Analysis.html")
+```
+
+# Conclusion
+
+
+# References 
+
+# Appendix 
+
+## Team Members and Responsibilities 
+
+Team member         Tasks Completed 
+------------------  ------------------------------------------------------------------------------------- 
+Kay Royo            Data Collection, Data Preprocessing, Sentiment Analysis, Presentation Slides, Report  
+Aurian Saidi        Presentation Slides, Report  
+Ibrahim Rizk        Clustering, Presentation Slides, Report  
+

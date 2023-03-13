@@ -9,7 +9,7 @@
 
 
 <style type="text/css">
-    pre { line-height: 120%; max-height: 200px; }
+    pre {  line-height: 120%; max-height: 200px; }
 td.linenos .normal { color: inherit; background-color: transparent; padding-left: 5px; padding-right: 5px; }
 span.linenos { color: inherit; background-color: transparent; padding-left: 5px; padding-right: 5px; }
 td.linenos .special { color: #000000; background-color: #ffffc0; padding-left: 5px; padding-right: 5px; }
@@ -14592,25 +14592,9 @@ body[data-format='mobile'] .jp-OutputArea-child .jp-OutputArea-output {
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
-<h1 id="Contents">Contents<a class="anchor-link" href="#Contents">&#182;</a></h1><ul>
-<li><a href="#Preprocessing">Data Preprocessing</a><ul>
-<li><a href="#newfeats">New features</a></li>
-<li><a href="#refine">Lyric cleansing</a></li>
-</ul>
-</li>
-</ul>
+<p>Preprocessing text data is a crucial step in preparing data for analysis. Raw text data often contains noise, irrelevant information, and inconsistencies that can negatively impact the accuracy and reliability of analysis results. Therefore, preprocessing steps such as text cleaning, tokenization, stop-word removal, stemming or lemmatization, should be performed to enhance the quality of the text data. This can improve the efficiency of machine learning models, natural language processing (NLP) algorithms, and text mining techniques. Moreover, preprocessing can also help to standardize text data across different sources and improve the interpretability of results. Overall, effective preprocessing is essential for accurate and insightful analysis of text data.</p>
+<p>In this project, a new column is added to the dataframe that counts the number of words in the lyrics data. Additionally, new features like continent and country codes are included for mapping purposes. To ensure that all stopwords are removed during the stopword removal process, contraction words such as 'dont' and 'wasnt' are expanded into their longer versions. Following the removal of stopwords, lemmatization is performed to simplify words by removing suffixes and prefixes. Words like 'oh' that hold no significant meaning and commonly appear in song lyrics are removed to further simplify the lyrics data. Due to the absence of translations for some foreign words in the googletrans library, those words are removed. Lastly, words are converted to the present tense, and remaining punctuation like diacritics is removed.</p>
 
-</div>
-</div>
-</div>
-</div>
-<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
-<div class="jp-Cell-inputWrapper">
-<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
-</div>
-<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
-</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
-<h1 id="Data-Preprocessing-">Data Preprocessing <a class="anchor" id="Preprocessing" /><a class="anchor-link" href="#Data-Preprocessing-">&#182;</a></h1>
 </div>
 </div>
 </div>
@@ -21384,7 +21368,7 @@ Name: lyrics_clean, Length: 7300, dtype: object</pre>
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
-<p>If <code>googletrans</code> is unable to provide an English translation for certain words in a foreign language, those words may be eliminated from the dataset.</p>
+<p>In cases where <code>googletrans</code> fails to offer an English translation for particular words in a foreign language, those words might can be excluded from the dataset.</p>
 
 </div>
 </div>
@@ -23408,22 +23392,6 @@ Name: lyrics_clean, Length: 7300, dtype: object</pre>
      <div class="CodeMirror cm-s-jupyter">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="c1"># EXPORT FINAL DATA</span>
 <span class="n">song_data</span><span class="o">.</span><span class="n">to_csv</span><span class="p">(</span><span class="s1">&#39;C:/Users/kayan/UCD/CMN212/Project/top-hits/Data/merged_finaltop100_revised.csv&#39;</span><span class="p">)</span> 
-</pre></div>
-
-     </div>
-</div>
-</div>
-</div>
-
-</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs  ">
-<div class="jp-Cell-inputWrapper">
-<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
-</div>
-<div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[&nbsp;]:</div>
-<div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
-     <div class="CodeMirror cm-s-jupyter">
-<div class=" highlight hl-ipython3"><pre><span></span> 
 </pre></div>
 
      </div>
