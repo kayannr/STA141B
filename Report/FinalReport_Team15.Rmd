@@ -12,6 +12,24 @@ h1, h2, h3 {
 
 # Introduction 
 
+The role of music in our lives is significant, as it impacts our emotions, physical health, and social connections. It has the ability to elicit various emotions and moods, which can create a sense of connection within ourselves and with others. Depending on the type of music and our individual experiences, music can provide comfort, joy, or even sadness. Music also offers physical and psychological benefits, such as stress and anxiety reduction, blood pressure regulation, and cognitive function improvement. Whether we are passive listeners or actively involved in creating or performing music, it can enhance our lives in numerous ways.
+
+The purpose of this study is to analyze popular music to investigate the songs that are widely consumed and appreciated across the globe. This study encompasses various methods that aim to comprehend the different components of present-day popular music. As the role of popular music in our society continues to evolve, popular music analysis has emerged as a crucial field of study over the past few decades. Through examining popular music, scholars and researchers can gain valuable insights into the cultural, social, and political factors that shape the music we listen to. Furthermore, by examining the musical styles, themes, and lyrics of popular music in different countries, we can acquire a better understanding of the values and beliefs of those cultures. The study seeks to address the following questions of interest.
+
+- Which attributes of a song have a relationship with a song’s popularity? 
+
+-	What is the prevailing sentiment or emotional tone of popular songs in various countries?
+
+- To what extent do music preferences align across different countries based on current trends? 
+
+
+
+# Background 
+
+In recent years, the analysis of popular music in various countries has gained significance due to the ease of accessing and sharing music across borders facilitated by global communication and technology. This growing interest among scholars and researchers aims to explore the diverse musical traditions and practices of different countries while understanding the cultural, social, and political contexts in which popular music is created and consumed.
+
+Research on popular music in different countries typically concentrates on the distinct musical styles, themes, and lyrics that reflect the cultural traditions and values of those societies. It may also investigate how music expresses social and political messages and promotes cultural and national identities. Additionally, analyses of popular music in different countries may examine how global musical trends and influences are adapted and transformed within local contexts, as well as how music is utilized to resist dominant cultural or political forces. In general, the study of popular music in different countries is a vibrant and diverse field that provides insights into the unique musical cultures and practices of different regions, and how music is utilized to express and shape social, cultural, and political identities.
+
 # I. Data Collection 
 
 ```{r, echo=FALSE}
@@ -26,9 +44,11 @@ htmltools::includeHTML("../Data/Data_Processing.html")
 
 # III. Exploratory Analysis 
 
-# 1V. Clustering 
+# IV. Classification  
 
-# V. Sentiment Analysis 
+# V. Clustering 
+
+# VI. Sentiment Analysis 
 
 
 ```{r, echo=FALSE}
@@ -37,16 +57,36 @@ htmltools::includeHTML("../Sentiment_Analysis/Sentiment_Analysis.html")
 
 # Conclusion
 
+(Insert conclusion regarding EDA and Classification)
+
+(Insert conclusion regarding Clustering)
+
+Based on the results obtained using different methods to analyze the most common sentiment or emotions, it can be concluded that the lyrics of popular songs generally convey a positive sentiment. There are several reasons why people tend to enjoy listening to songs with positive sentiment. Firstly, such songs can create a sense of happiness, joy, and optimism, which can be uplifting and improve one's mood. This is particularly true when an individual is experiencing challenging situations or negative emotions. Secondly, positive songs often have catchy melodies and upbeat rhythms that can make them more enjoyable to listen to, and people may find themselves singing or humming along with them. Thirdly, songs with positive sentiments can provide a sense of hope and inspiration, motivating people to pursue their goals and dreams. Finally, positive songs may serve as a reminder of happy memories or experiences, allowing people to relive those moments through the music. Overall, listening to songs with positive sentiments can have a significant impact on an individual's mood, outlook on life, and overall well-being. Therefore, it is logical to conclude that individuals across the globe would have a preference for songs that convey positive sentiments.
 
 # References 
 
+Spotify. (n.d.). Spotify Charts. Retrieved March 14, 2023, from https://charts.spotify.com/home
+
+Spotify. (n.d.). Web API Reference. Spotify Developer. Retrieved March 14, 2023, from https://developer.spotify.com/documentation/web-api/reference/#/
+
+Genius. (n.d.). Genius API Documentation. Genius. Retrieved March 14, 2023, from https://docs.genius.com/
+
+Millr, J. (n.d.). LyricsGenius: a Python client for the Genius.com API. GitHub. Retrieved March 14, 2023, from https://github.com/johnwmillr/LyricsGenius
+
+Mohammad, S. (n.d.). NRC Emotion Lexicon. Retrieved March 14, 2023, from http://saifmohammad.com/WebPages/NRC-Emotion-Lexicon.htm
+
+Hutto, C.J. (2014). vaderSentiment. [Computer software]. Retrieved from https://github.com/cjhutto/vaderSentiment
+
+TextBlob. (n.d.). TextBlob documentation. TextBlob. https://textblob.readthedocs.io/en/dev/
+
 # Appendix 
+
+## [Github Repository](https://github.com/kayannr/STA141B) 
 
 ## Team Members and Responsibilities 
 
 Team member         Tasks Completed 
 ------------------  ------------------------------------------------------------------------------------- 
-Kay Royo            Data Collection, Data Preprocessing, Sentiment Analysis, Presentation Slides, Report  
-Aurian Saidi        Presentation Slides, Report  
-Ibrahim Rizk        Clustering, Presentation Slides, Report  
-
+Kay Royo            Data Collection, Data Preprocessing, Sentiment Analysis, Presentation, Report  
+Aurian Saidi        EDA,Classification, Presentation, Report  
+Ibrahim Rizk        Clustering, Presentation, Report  
