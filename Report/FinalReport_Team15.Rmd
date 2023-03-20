@@ -48,6 +48,10 @@ htmltools::includeHTML("../Data/Data_Processing.html")
 
 # V. Clustering 
 
+```{r, echo=FALSE}
+htmltools::includeHTML("../Clustering/Clustering.html")
+```
+
 # VI. Sentiment Analysis 
 
 
@@ -59,7 +63,7 @@ htmltools::includeHTML("../Sentiment_Analysis/Sentiment_Analysis.html")
 
 (Insert conclusion regarding EDA and Classification)
 
-(Insert conclusion regarding Clustering)
+After performing an agglomerative clustering of the data, we can conclude that there are several reasons that contribute to similarity in trending music taste. First, the geographic proximity of countries can result in shared cultural influences that manifest within popular music. Second, culture can also play a significant role in music preferences, as countries with similar cultural backgrounds might have a stronger affinity towards specific genres or artists. Finally, language has a powerful affect on music similarity that is supplemented by the previous geographical and cultural factors.
 
 Based on the results obtained using different methods to analyze the most common sentiment or emotions, it can be concluded that the lyrics of popular songs generally convey a positive sentiment. There are several reasons why people tend to enjoy listening to songs with positive sentiment. Firstly, such songs can create a sense of happiness, joy, and optimism, which can be uplifting and improve one's mood. This is particularly true when an individual is experiencing challenging situations or negative emotions. Secondly, positive songs often have catchy melodies and upbeat rhythms that can make them more enjoyable to listen to, and people may find themselves singing or humming along with them. Thirdly, songs with positive sentiments can provide a sense of hope and inspiration, motivating people to pursue their goals and dreams. Finally, positive songs may serve as a reminder of happy memories or experiences, allowing people to relive those moments through the music. Overall, listening to songs with positive sentiments can have a significant impact on an individual's mood, outlook on life, and overall well-being. Therefore, it is logical to conclude that individuals across the globe would have a preference for songs that convey positive sentiments.
 
