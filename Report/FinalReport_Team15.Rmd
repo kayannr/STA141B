@@ -89,8 +89,20 @@ TextBlob. (n.d.). TextBlob documentation. TextBlob. https://textblob.readthedocs
 
 ## Team Members and Responsibilities 
 
-Team member         Tasks Completed 
-------------------  ------------------------------------------------------------------------------------- 
-Kay Royo            Data Collection, Data Preprocessing, Sentiment Analysis, Presentation, Report  
-Aurian Saidi        EDA,Classification, Presentation, Report  
-Ibrahim Rizk        Clustering, Presentation, Report  
+Tasks Completed     Kay Royo                  Ibrahim Rizk               Aurian Saidi
+------------------  ------------------------- -------------------------- ---------------------------------- 
+Code                  Data Collection          Clustering                EDA
+                      Data Preprocessing                                 Classification
+                      Sentiment Analysis 
+Presentation          Data Collection          Clustering                Intro 
+                      Data Preprocessing       Conclusion                EDA
+                      Sentiment Analysis                                 Classification
+Report                Introduction             Clustering
+                      Background               Conclusion
+                      Data Collection
+                      Data Preprocessing
+                      Sentiment Analysis
+                      Conclusion 
+                      References 
+                      Report Style
+          
