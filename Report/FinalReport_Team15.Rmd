@@ -42,26 +42,29 @@ htmltools::includeHTML("../Data/Data_Collection.html")
 htmltools::includeHTML("../Data/Data_Processing.html")
 ```
 
-# III. Exploratory Analysis 
+# III. Exploratory Analysis & Classification
 
-# IV. Classification  
+```{r, echo=FALSE}
+htmltools::includeHTML("../EDA_Classification/141B-Project.html")
+```
 
-# V. Clustering 
+
+# IV Clustering 
 
 ```{r, echo=FALSE}
 htmltools::includeHTML("../Clustering/Clustering.html")
 ```
 
-# VI. Sentiment Analysis 
+# V. Sentiment Analysis 
 
 
 ```{r, echo=FALSE}
 htmltools::includeHTML("../Sentiment_Analysis/Sentiment_Analysis.html")
 ```
 
-# Conclusion
+# Summary
 
-(Insert conclusion regarding EDA and Classification)
+For this project, we held the initial belief that utilizing audio features to predict music popularity would yield insignificant outcomes owing to the unstructured nature of music and the subjective nature of human preferences. However, we were pleased to discover that our random forest algorithm exhibited a success rate of 84% in accurately identifying music as either popular or not popular, followed by decision tree with 77%, and finally logistic regression with 63%. The foremost audio features which were found to have a significant impact on the popularity of music were loudness, energy, and danceability. Conversely, acousticness and instrumentalness were found to be the most significant features for unpopular music. Music possessing high energy and danceability were correlated with an increase in popularity, while songs without electrical amplification and vocals were associated with a decline in popularity. This can be attributed to the fact that high-energy music with the potential to be danced to is more frequently desired in settings such as clubs, concerts, sporting events, and restaurants. On the other hand, instrumental music applications tend to have a more specific audience, which can contribute to a reduction in popularity.
 
 After performing an agglomerative clustering of the data, we can conclude that there are several reasons that contribute to similarity in trending music taste. First, the geographic proximity of countries can result in shared cultural influences that manifest within popular music. Second, culture can also play a significant role in music preferences, as countries with similar cultural backgrounds might have a stronger affinity towards specific genres or artists. Finally, language has a powerful affect on music similarity that is supplemented by the previous geographical and cultural factors.
 
@@ -91,18 +94,18 @@ TextBlob. (n.d.). TextBlob documentation. TextBlob. https://textblob.readthedocs
 
 Tasks Completed     Kay Royo                  Ibrahim Rizk               Aurian Saidi
 ------------------  ------------------------- -------------------------- ---------------------------------- 
-Code                  Data Collection          Clustering                EDA
-                      Data Preprocessing                                 Classification
+Code                  Data Collection          Clustering                EDA & Classification
+                      Data Preprocessing                                 
                       Sentiment Analysis 
 Presentation          Data Collection          Clustering                Intro 
-                      Data Preprocessing       Conclusion                EDA
-                      Sentiment Analysis                                 Classification
-Report                Introduction             Clustering
-                      Background               Conclusion
-                      Data Collection
+                      Data Preprocessing       Summary                   EDA & Classification
+                      Sentiment Analysis                                 
+Report                Introduction             Clustering                EDA & Classification
+                      Background               Summary                   Summary
+                      Data Collection                                    
                       Data Preprocessing
                       Sentiment Analysis
-                      Conclusion 
+                      Summary 
                       References 
                       Report Style
           
